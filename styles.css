@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+
+:root {
+    --primary-color: #FBBF24;
+}
+
+body {
+    font-family: 'Baloo Da 2', cursive;
+    margin: 0px 0px;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    height: 80px;
+}
+
+.navigation h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 25px 20px;
+    margin: 0px;
+}
+
+textarea {
+    display: block;
+    width: 45%;
+    height: 150px;
+    padding: 2px 5px;
+    margin: 50px auto;
+}
+
+textarea::placeholder {
+    font-size: large;
+    padding: 0px 5px;
+}
+
+#translate-btn {
+    border: 2px solid black;
+    display: block;
+    background: var(--primary-color);
+    font-weight: bold;
+    width: 10%;
+    height: 40px;
+    position: relative;
+    left: 371px;
+    bottom: 30px;
+}
+
+#output-text {
+    position: absolute;
+    left: 371px;
+    top: 360px;
+}
+
+#output {
+    display: block;
+    width: 45%;
+    height: 100px;
+    padding: 2px 5px;
+    margin: 10px auto;
+    border: 2px solid black;
+}
+
+.footer-class {
+    background-color: var(--primary-color);
+    height: 185px;
+    text-align: center;
+}
+
+.footer-heading {
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-class p {
+    margin: 0px auto;
+    font-size: 17px;
+    max-width: 600px;
+}
+
+.footer-class span {
+    display: block;
+    width: 175px;
+    margin: 0px auto;
+}
+
+
+
