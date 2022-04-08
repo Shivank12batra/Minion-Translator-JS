@@ -2,87 +2,81 @@
 
 :root {
     --primary-color: #FBBF24;
+    --background-white: #FEF3C7
 }
 
-body {
+body, html {
     font-family: 'Baloo Da 2', cursive;
-    margin: 0px 0px;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-white);
 }
 
-.navigation {
-    background-color: var(--primary-color);
-    height: 80px;
+nav {
+    background: var(--primary-color);
 }
 
-.navigation h1 {
-    font-size: 25px;
+.nav-heading {
+    font-size: 1.2rem;
     text-align: center;
-    padding: 25px 20px;
-    margin: 0px;
+    padding: 1rem 0rem;
 }
 
-textarea {
+.text-area {
+    background-color: var(--background-white);
+    font-size: 1rem;
     display: block;
-    width: 45%;
-    height: 150px;
-    padding: 2px 5px;
-    margin: 50px auto;
+    width: 60%;
+    height: 20vh;
+    padding: 0.5rem;
+    margin: 2rem auto;
+    margin-bottom: 0.5rem;
 }
 
 textarea::placeholder {
     font-size: large;
-    padding: 0px 5px;
+    padding: 0 0.2rem;
 }
 
 #translate-btn {
-    border: 2px solid black;
+    border: 0.2rem solid black;
     display: block;
     background: var(--primary-color);
     font-weight: bold;
-    width: 10%;
-    height: 40px;
-    position: relative;
-    left: 371px;
-    bottom: 30px;
-}
-
-#output-text {
-    position: absolute;
-    left: 371px;
-    top: 360px;
+    margin: 1rem auto;
+    min-width: 10%;
+    height: 8vh;
 }
 
 #output {
-    display: block;
-    width: 45%;
-    height: 100px;
-    padding: 2px 5px;
-    margin: 10px auto;
-    border: 2px solid black;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
 }
 
 .footer-class {
     background-color: var(--primary-color);
-    height: 185px;
     text-align: center;
 }
 
 .footer-heading {
-    padding-top: 20px;
-    margin-bottom: 10px;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin: 0;
 }
 
 .footer-class p {
-    margin: 0px auto;
-    font-size: 17px;
-    max-width: 600px;
+    padding: 0rem;
+    margin: 0rem auto;
+    max-width: 40%;
 }
 
-.footer-class span {
-    display: block;
-    width: 175px;
-    margin: 0px auto;
+@media only screen and (max-width: 500px) {
+    .footer-class p {
+        max-width: 100%;
+    }
+    
 }
+
 
 
 

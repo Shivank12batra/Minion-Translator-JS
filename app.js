@@ -1,5 +1,5 @@
 let button = document.getElementById('translate-btn');
-let text = document.getElementById('text-area');
+let text = document.querySelector('.text-area');
 let output = document.getElementById('output');
 
 let url = 'https://api.funtranslations.com/translate/minion.json'
